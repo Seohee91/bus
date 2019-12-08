@@ -1,0 +1,3 @@
+integer (Nodeno) {
+  description (정류장고유번호)
+}
