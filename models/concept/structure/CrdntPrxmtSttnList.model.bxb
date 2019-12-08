@@ -1,0 +1,23 @@
+structure (CrdntPrxmtSttnList) {
+  description (정류소의 정보)
+  property (gpslati) {
+    type (Gpslati)
+    min (Optional) max (One)
+  }
+  property (gpslong) {
+    type (Gpslong)
+    min (Optional) max (One)
+  }
+  property (nodeid) {
+    type (Nodeid)
+    min (Optional) max (One)
+  }
+  property (nodenm) {
+    type (Nodenm)
+    min (Optional) max (One)
+  }
+  property (citycode) {
+    type (Citycode)
+    min (Optional) max (One)
+  }
+}
