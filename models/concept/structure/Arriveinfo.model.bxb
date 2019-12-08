@@ -1,0 +1,19 @@
+structure (Arriveinfo) {
+  description (__DESCRIPTION__)
+  property (arriveT) {
+    type (ArriveTime)
+    min (Required) max (One)
+  }
+  property (preStn) {
+    type (PreStn)
+    min (Required) max (One)
+  }
+    property (miniute) {
+    type (Miniute)
+    min (Required) max (One)
+  }
+    property (second) {
+    type (Second)
+    min (Required) max (One)
+  }
+}
