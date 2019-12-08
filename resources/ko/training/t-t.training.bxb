@@ -1,0 +1,5 @@
+train (t-tmdirvlaid9jdgf9gnbu3if97) {
+  utterance ([g:GetCurrentPosition] 내위치)
+  plan (Y2BmkC3ISaxML8ovzUvRSyot1vOtDMgvzizJzM/zySwuYVBEk3ZPLXEuLSpKzSuBKWMQKMss00tPzQfK5QfkZ+aVMDAxMAIxA5BkZGCA0QA=)
+  last-modified (1561288159389)
+}
