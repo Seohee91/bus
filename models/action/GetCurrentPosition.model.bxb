@@ -1,0 +1,20 @@
+action (GetCurrentPosition) {
+  type(Search)
+  description (사용자의 현재위치 받아오기)
+  collect {
+    input (point) {
+      type (geo.GeoPoint)
+      min (Required) max (One)
+      default-init{
+        if($user.currentLocation.$exists){
+          intent{
+            goal:geo.GeoPoint
+            value-set:geo.CurrentLocation{$expr($user.currentLocation)}
+          }
+        }
+      }
+
+    }
+  }
+  output (MyPositionList)
+}
