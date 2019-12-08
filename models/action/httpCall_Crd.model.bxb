@@ -1,0 +1,20 @@
+action (httpCall_Crd) {
+  description (사용자의 위치를 받아 정류장 정보에 대한 더미데이터를 가지고올 액션)
+  type(Constructor)
+  collect {
+  input (point) {
+      type (geo.GeoPoint)
+      min (Required) max (One)
+      default-init{
+        if($user.currentLocation.$exists){
+         intent{
+           goal:geo.GeoPoint
+           value-set:geo.CurrentLocation{$expr($user.currentLocation)}
+          }
+       }
+      }
+
+    }
+  }
+  output (CrdntPrxmtSttnList)
+}
