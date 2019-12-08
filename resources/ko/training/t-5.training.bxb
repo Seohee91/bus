@@ -1,0 +1,10 @@
+train (t-5d0kxdxchftn5ehv8f8oe6cfn) {
+  utterance ("[g:httpCAll_Routeid] (대구광역시)[v:Cityname] (503)[v:Routeno]")
+  plan (Y2BhECvISaxML8ovzUvRSyot1gvKLy1JzUxhkEcTzygpKXB2zMmJhykQR1PgnFlSmZeYm4rdxLx8BmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1561285579687)
+}
+train (t-5zs0bytbaukt8e9oudtfymr9r) {
+  utterance ("[g:httpCall_ArriveTime] (대구광역시)[v:Cityname] (동대구역)[v:Nodenm] (937)[v:Routeno]")
+  plan (Y2BlkCzISaxML8ovzUvRSyot1nMsKsosSw3JzE1lUEKTyigpKXBOzMmJR1IjjqbGObOkMi8RKCGKJuGXn5Kal8sghiYclF9akpqXz8DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1561285261450)
+}
