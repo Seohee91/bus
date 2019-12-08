@@ -1,0 +1,19 @@
+action (httpCall_ArriveTime) {
+  type(Constructor)
+  description (버스남은 시간 찾아오기!!)
+  collect {
+    input (cityname) {
+      type (Cityname)
+      min (Required) max (One)
+    }
+     input (nodenm) {
+      type (Nodenm)
+      min (Required) max (One)
+    }
+     input (routeno) {
+      type (Routeno)
+      min (Required) max (One)
+    }
+  }
+  output (Arriveinfo)
+}
