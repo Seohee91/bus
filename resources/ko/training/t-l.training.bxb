@@ -1,0 +1,5 @@
+train (t-lj2qj2ap6otwynfcwciv0yeca) {
+  utterance ("[g:FindCityinfo] (대구광역시)[v:Cityname]")
+  plan (Y2BmEC/ISaxML8ovzUvRSyot1nPOLKlMzk9JZZBGk3DLzEsBSWbmpeVj1ZWXmJvKwMTACMQMQJKRAQSgfAA=)
+  last-modified (1561289322332)
+}
