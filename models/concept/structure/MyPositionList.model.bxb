@@ -1,0 +1,8 @@
+structure (MyPositionList) {
+  description (사용자의 위치 위도 경도 정보를 가져옴)
+  property (myPos) {
+    type (MyPos)
+    visibility (Public)
+    min (Required) max (One)
+  }
+}
