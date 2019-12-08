@@ -1,0 +1,12 @@
+action (FindCityinfo) {
+   type (Search)
+  description (cityinfo찾기)
+  collect {
+    input (cityname) {
+      type (Cityname)
+      min (Required) 
+    }
+  }
+  output (Citycode)
+}
+
