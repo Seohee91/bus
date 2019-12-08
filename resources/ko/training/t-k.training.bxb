@@ -1,0 +1,10 @@
+train (t-k4lwga3igpybzlppm3093lail) {
+  utterance ("[g:httpCall_Nodeid] (22)[v:Citycode] (DGB3000937000)[v:Routeid]")
+  plan (Y2BlEC3ISaxML8ovzUvRSyot1vPLT0nNTGGQQxPOKCkpcE7MyYmHyoujyTtnllQmA6WwmpeXyyCGJhyUX1oCMoeFgZGBiYEZSDMAWRAIA8xgOaAMAA==)
+  last-modified (1561295854801)
+}
+train (t-kd0yx32jjo07t0eoup7667do7) {
+  utterance ("[g:httpCall_ArriveTime] (대구광역시)[v:Cityname] (경북대학교정문앞)[v:Nodenm] (503)[v:Routeno]")
+  plan (Y2BlkCzISaxML8ovzUvRSyot1nMsKsosSw3JzE1lUEKTyigpKXBOzMmJR1IjjqbGObOkMi8RKCGKJuGXn5Kal8sghiYclF9akpqXz8DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1561301661271)
+}
