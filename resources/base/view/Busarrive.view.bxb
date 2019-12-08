@@ -1,0 +1,17 @@
+result-view{
+   match : Arriveinfo(this)
+ 
+ 
+render{
+    list-of (this){
+      where-each (item){
+        paragraph{
+          value{
+            template ("#{value(preStn)}정거장 전, 약 #{value(arriveT)} 후 도착 예정입니다.")
+          }
+        }
+      }
+    }
+  }  
+}
+ 
