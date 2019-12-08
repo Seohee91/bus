@@ -1,0 +1,5 @@
+train (t-ik3630qi9qye0nktml1bce371) {
+  utterance ("[g:httpCall_Nodeid] (22)[v:Citycode] (DGB3000937000)[v:Routeid] (동대구역)[v:Nodenm]")
+  plan (Y2BlEC3ISaxML8ovzUvRSyot1vPLT0nNTGGQQxPOKCkpcE7MyYmHyoujyTtnllQmA6WwmpeXyyCGJhyUX1oCMoeFgZGBiYEZSDMAWRAIA0hyAA==)
+  last-modified (1561295844348)
+}
