@@ -1,0 +1,24 @@
+capsule {
+  id (playground.bus)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  capsule-imports {
+    import (viv.core){
+      as(core)
+    }
+    import (viv.geo) {
+      as (geo) 
+      version (9.17.18)
+    }}
+  permissions {
+    user-profile-access
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+}
