@@ -1,0 +1,33 @@
+ endpoints {
+
+  action-endpoints {
+
+    action-endpoint (FindCityinfo) {
+      accepted-inputs (cityname)
+      local-endpoint ("FindCityinfo.js")
+    }
+    action-endpoint (httpCall_Crd) {
+      accepted-inputs (point)
+      local-endpoint ("GetCrdntPrxmtSttnList.js")
+    }
+     action-endpoint (GetCurrentPosition) {
+      accepted-inputs (point)
+      local-endpoint ("getCurrentPosition.js")
+    }
+     action-endpoint (httpCAll_Routeid) {
+      accepted-inputs (cityname,routeno)
+      local-endpoint ("GetRouteno.js")
+    }
+    action-endpoint (httpCall_ArriveTime) {
+      accepted-inputs (cityname,nodenm,routeno)
+      local-endpoint ("GetArriveTime.js")
+    }
+    
+    action-endpoint (httpCall_Nodeid) {
+      accepted-inputs (citycode,nodenm,routeid)
+      local-endpoint ("GetNodeid.js")
+    }
+  }
+   
+ 
+}
