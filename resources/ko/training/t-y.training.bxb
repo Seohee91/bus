@@ -1,0 +1,5 @@
+train (t-y2a13jkpo3hsnb7b44gsb9g7b) {
+  utterance ([g:httpCall_Crd] 내위치정보와 가까운 정류장)
+  plan (Y2BmUCzISaxML8ovzUvRSyot1nMuSskrCSiqyC0JLinJ88ksLmGQRlOSUVJS4JyYkxMPVMsgUJZZppeemq/nnpofkJ+ZV8LAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1561085468944)
+}
