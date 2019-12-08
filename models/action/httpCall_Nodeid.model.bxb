@@ -1,0 +1,21 @@
+action (httpCall_Nodeid) {
+  type(Constructor)
+  description (__DESCRIPTION__)
+  collect {
+    input (citycode) {
+      type (Citycode)
+      min (Required) max (One)
+    }
+    
+    input (nodenm) {
+      type (Nodenm)
+      min (Required) max (One)
+    }
+    input (routeid) {
+      type (Routeid)
+      min (Required) max (One)
+    }
+    
+  }
+  output (Nodeid)
+}
