@@ -1,0 +1,16 @@
+action (httpCAll_Routeid) {
+  type(Constructor)
+  description (시티코드와 버스노선넘버를 받아서 노선 아이디를 받아온당)
+  collect {
+     input (cityname) {
+      type (Cityname)
+      min (Required) 
+    }
+    input (routeno) {
+      type (Routeno)
+      min (Required) max (One)
+    }
+  }
+  output (Routeid)
+}
+
