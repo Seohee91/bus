@@ -1,0 +1,12 @@
+structure (Cityinfo) {
+  description (citycode와 cityname)
+  property (citycode) {
+    type (Citycode)
+    min (Optional)
+  }
+  property (cityname) {
+    type (Cityname)
+    min (Required) max (One)
+  }
+  
+}
