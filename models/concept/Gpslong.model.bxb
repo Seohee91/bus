@@ -1,0 +1,3 @@
+decimal (Gpslong) {
+  description (정류소의 longitude)
+}
